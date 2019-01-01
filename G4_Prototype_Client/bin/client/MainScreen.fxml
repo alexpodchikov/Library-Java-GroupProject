@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="385.0" prefWidth="427.0" style="-fx-background-color: d9ead3; -fx-border-color: red;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.MainScreen">
+   <children>
+      <Button id="quitButtonID" layoutX="53.0" layoutY="271.0" mnemonicParsing="false" onAction="#quitApplication" prefHeight="31.0" prefWidth="97.0" text="Quit" />
+      <Label id="searchStudentID" layoutX="135.0" layoutY="71.0" text="Search Student By ID:" />
+      <TextField fx:id="searchStudentTextFieldID" layoutX="122.0" layoutY="92.0" />
+      <Button fx:id="searchButtonID" layoutX="183.0" layoutY="130.0" mnemonicParsing="false" onAction="#SearchClick" text="Search" />
+      <Button id="connectToDataBaseButtonID" layoutX="248.0" layoutY="263.0" mnemonicParsing="false" onAction="#establishConnection" text="Connect  To DataBase" />
+      <Label id="statusID" layoutX="255.0" layoutY="330.0" text="Status:" />
+      <Label fx:id="connectionStatus" layoutX="318.0" layoutY="330.0" text="Disconnected" />
+   </children>
+</AnchorPane>
