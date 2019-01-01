@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="G4_Prototype_Client/src/common-inventory-management-challenges-300x260.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="404.0" layoutY="503.0" mnemonicParsing="false" prefHeight="148.0" prefWidth="397.0" style="-fx-background-color: #01ff00;" text="Book Search">
+         <font>
+            <Font name="System Bold Italic" size="51.0" />
+         </font>
+      </Button>
+      <Button layoutX="1041.0" layoutY="14.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="138.0" style="-fx-background-color: #01ff00;" text="Log In" textFill="#0240a4">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="90.0" prefHeight="185.0" prefWidth="1200.0" style="-fx-background-color: ffbf;" AnchorPane.topAnchor="100.0">
+         <children>
+            <Label layoutX="264.0" layoutY="37.0" text="Ort Braude Library">
+               <font>
+                  <Font name="System Bold" size="77.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

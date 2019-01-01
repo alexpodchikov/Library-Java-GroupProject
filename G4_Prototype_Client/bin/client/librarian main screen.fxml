@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Main Screen">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Profile">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Logout">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane layoutX="200.0" layoutY="109.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <center>
+            <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #ccffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="353.0" layoutY="285.0" maxWidth="400.0" prefHeight="240.0" prefWidth="207.0" style="-fx-background-color: #ff80b3;" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="630.0" AnchorPane.topAnchor="285.0">
+                     <children>
+                        <ImageView fitHeight="160.0" fitWidth="172.0" layoutX="30.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="88.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="70.0">
+                           <image>
+                              <Image url="@../../Pictures/פרוייקט%20ספריה/images%20(2).png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="45.0" layoutY="206.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="110.0" text="Book Return" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="310.0" />
+                        <Label layoutX="36.0" layoutY="25.0" text="Book Return" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="631.0" layoutY="285.0" maxWidth="400.0" minWidth="0.0" prefHeight="240.0" prefWidth="209.0" style="-fx-background-color: #b3daff;" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="630.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="285.0">
+                     <children>
+                        <ImageView fitHeight="168.0" fitWidth="183.0" layoutX="19.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="89.39999389648438" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="70.0">
+                           <image>
+                              <Image url="@../../Pictures/פרוייקט%20ספריה/common-inventory-management-challenges-300x260.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="15.0" layoutY="298.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="190.0" text="Inventory Management" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="310.0" />
+                        <Label layoutX="7.0" layoutY="27.0" text="Inventory Management" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="47.0" layoutY="285.0" prefHeight="262.0" prefWidth="236.0" style="-fx-background-color: #00e6ac;" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="910.0" AnchorPane.topAnchor="285.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="70.0">
+                           <image>
+                              <Image url="@../../Pictures/פרוייקט%20ספריה/images%20(7).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="50.0" layoutY="24.0" text="Book Borrow" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="921.0" layoutY="287.0" prefHeight="261.0" prefWidth="234.0" style="-fx-background-color: #ffcccc;" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="910.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="285.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="70.0">
+                           <image>
+                              <Image url="@../../Pictures/פרוייקט%20ספריה/images%20(3).jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="53.0" layoutY="23.0" text="Library Card" AnchorPane.topAnchor="20.0">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="393.0" layoutY="46.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="414.0" style="-fx-background-color: ffbf;" text="Book Search" textAlignment="CENTER" textFill="#217a9a">
+                     <font>
+                        <Font name="System Bold" size="51.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
